@@ -1,0 +1,50 @@
+campaign_id,campaign_type,prompt,expected_features
+premium_beer_dining,marketing_manager_request,We want to promote premium dining occasions with beer-related products to users who are likely to spend more.,premium_order_rate|fine_dining_order_rate|beer_order_rate|avg_order_value|total_spend
+seafood_weekend_groups,marketing_manager_request,We are planning a weekend seafood campaign for groups and shared meals.,seafood_order_rate|weekend_order_rate|group_order_rate
+family_kids_food,marketing_manager_request,We want to reach family-oriented users who may be interested in kids food options during weekends.,kids_food_order_rate|weekend_order_rate|group_order_rate
+salads_healthy,marketing_manager_request,We are launching a lighter food campaign focused on salads and healthy options.,salads_order_rate|healthy_food_order_rate
+coffee_dessert_evening,marketing_manager_request,We want to increase evening orders for coffee and dessert products.,coffee_order_rate|dessert_order_rate|evening_order_rate
+spicy_food_lovers,marketing_manager_request,We want to promote spicy dishes to users who show interest in stronger taste profiles.,spicy_order_rate
+beef_grill_focus,marketing_manager_request,We want to target users who are likely to order beef or grill-related products.,beef_order_rate|meat_order_rate
+pork_category_push,marketing_manager_request,We are preparing a campaign for pork-based menu items and want to find relevant users.,pork_order_rate|meat_order_rate
+ukrainian_local_food,marketing_manager_request,We want to promote Ukrainian local food options to users who interact with this category.,ukrainian_order_rate
+delivery_growth,marketing_manager_request,We want to improve delivery performance by targeting users who prefer delivery over pickup.,delivery_order_rate|pickup_order_rate
+discount_quick_meals,marketing_manager_request,We are running a discount-heavy campaign for quick meals and fast food.,discount_usage_rate|fast_food_order_rate
+reactivate_lapsed_users,marketing_manager_request,We need to bring back users who have not ordered recently but were active before.,days_since_last_order|orders_last_30d|orders_last_90d
+loyal_high_spenders,marketing_manager_request,We want to reward loyal users who spend more and order consistently.,total_spend|avg_order_value|repeat_order_rate|total_orders
+new_category_exploration,marketing_manager_request,We want to introduce new tagged categories to users who explore different types of products.,repeat_order_rate|beer_order_rate|pork_order_rate|spicy_order_rate|ukrainian_order_rate
+social_group_dining,marketing_manager_request,We want to target users who often order food for groups or social dining occasions.,group_order_rate|weekend_order_rate
+premium_retention,marketing_manager_request,We want to retain premium customers who already show high-value behavior.,premium_order_rate|avg_order_value|total_spend|repeat_order_rate
+evening_social,marketing_manager_request,We want to promote evening social meals to users who order later in the day and for groups.,evening_order_rate|group_order_rate
+alcohol_related,marketing_manager_request,We want to promote alcohol-related products to users with relevant previous interactions.,alcohol_order_rate|beer_order_rate
+healthy_family,marketing_manager_request,We want a campaign for families looking for lighter or healthier food choices.,kids_food_order_rate|healthy_food_order_rate|salads_order_rate
+weekend_delivery,marketing_manager_request,We want to target users who order delivery during weekends.,delivery_order_rate|weekend_order_rate
+strict_orders_30d,strict_metric_request,Target users with a high number of orders in the last 30 days.,orders_last_30d
+strict_days_since_last_order,strict_metric_request,Target users with high days since last order.,days_since_last_order
+broad_new_offers,broad_low_signal_request,We want to run a broad campaign with new offers for users.,
+broad_engagement,broad_low_signal_request,We want to improve user engagement with a general message.,
+broad_brand_awareness,broad_low_signal_request,We want to increase brand awareness among customers.,
+premium_alcohol_evening,marketing_manager_request,Promote premium alcohol and beer options to users who place higher-value evening orders.,premium_order_rate|alcohol_order_rate|beer_order_rate|evening_order_rate|avg_order_value
+healthy_weekday_retention,marketing_manager_request,Find customers likely to respond to healthy weekday retention offers.,healthy_food_order_rate|salads_order_rate|repeat_order_rate|orders_last_30d
+fast_food_discount_delivery,marketing_manager_request,Target users who prefer discounted fast food through delivery.,fast_food_order_rate|discount_usage_rate|delivery_order_rate
+dessert_coffee_loyalty,marketing_manager_request,Create a loyalty campaign for users interested in desserts and coffee.,dessert_order_rate|coffee_order_rate|repeat_order_rate|total_orders
+meat_lovers_weekend,marketing_manager_request,"Promote meat-heavy weekend meals to users who order beef, pork, or grilled items.",meat_order_rate|beef_order_rate|pork_order_rate|weekend_order_rate
+pickup_value_users,marketing_manager_request,Target value-conscious users who often choose pickup and use discounts.,pickup_order_rate|discount_usage_rate|avg_order_value
+high_frequency_app_users,strict_metric_request,Target users with frequent app sessions and frequent orders.,app_sessions_last_30d|order_frequency_per_week|total_orders
+recent_active_buyers,strict_metric_request,Find users who ordered recently and have meaningful order activity in the last 30 days.,days_since_last_order|orders_last_30d
+ninety_day_reactivation,marketing_manager_request,Reactivate customers with older activity who still ordered during the last 90 days.,orders_last_90d|days_since_last_order|repeat_order_rate
+group_family_weekends,marketing_manager_request,Promote family group meals during weekends.,group_order_rate|kids_food_order_rate|weekend_order_rate
+fine_dining_high_aov,marketing_manager_request,Target fine dining customers with high average order value.,fine_dining_order_rate|avg_order_value|premium_order_rate
+seafood_premium_spenders,marketing_manager_request,Promote premium seafood offers to users with high spend potential.,seafood_order_rate|premium_order_rate|total_spend|avg_order_value
+ukrainian_discount_local,marketing_manager_request,Run a local Ukrainian food campaign with discount sensitivity.,ukrainian_order_rate|discount_usage_rate
+coffee_morning_habit,marketing_manager_request,Find coffee-oriented customers with repeated ordering behavior.,coffee_order_rate|repeat_order_rate|order_frequency_per_week
+spicy_fast_food,marketing_manager_request,Promote spicy fast food items to relevant customers.,spicy_order_rate|fast_food_order_rate
+healthy_premium_salads,marketing_manager_request,Target premium customers interested in salads and healthy food.,healthy_food_order_rate|salads_order_rate|premium_order_rate|avg_order_value
+delivery_evening_frequency,marketing_manager_request,Promote evening delivery offers to frequent ordering users.,delivery_order_rate|evening_order_rate|order_frequency_per_week
+low_recency_high_value,marketing_manager_request,Bring back high-value users whose last order was not recent.,days_since_last_order|total_spend|avg_order_value
+beer_social_groups,marketing_manager_request,Promote beer products for social group occasions.,beer_order_rate|group_order_rate|weekend_order_rate
+kids_healthy_family,marketing_manager_request,Reach families interested in healthier kids food choices.,kids_food_order_rate|healthy_food_order_rate|salads_order_rate
+premium_repeat_customers,marketing_manager_request,Reward repeat premium customers with strong purchase history.,premium_order_rate|repeat_order_rate|total_orders|total_spend
+broad_general_sale,broad_low_signal_request,Announce a general sale to all customers.,
+broad_product_news,broad_low_signal_request,Share broad product news with the customer base.,
+broad_app_message,broad_low_signal_request,Send a general app message without a specific behavioral target.,
