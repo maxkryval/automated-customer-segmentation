@@ -1,0 +1,34 @@
+feature_name,feature_description,feature_group
+age,Age of the user in years.,demographic
+sex,Biological sex of the user: male or female.,demographic
+total_orders,"Total number of completed orders placed by the user. Indicates customer activity, loyalty and frequency.",transactional
+total_spend,Total money spent by the user across all orders. Indicates high value customer behavior and monetary value.,transactional
+avg_order_value,"Average value of a single order. Indicates expensive orders, high check size and premium purchase behavior.",transactional
+orders_last_30d,Number of orders placed in the last 30 days. Indicates recent activity and active customers.,transactional
+orders_last_90d,Number of orders placed in the last 90 days. Indicates medium-term activity and order history.,transactional
+days_since_last_order,"Number of days since last order. Indicates inactivity, recency decay, lapsed users and reactivation need.",transactional
+discount_usage_rate,"Share of orders with discounts, coupons or promotions. Indicates promotion sensitivity and discount response.",transactional
+evening_order_rate,"Share of orders placed during evening hours, dinner time or after-work meals.",behavioral
+weekend_order_rate,"Share of orders placed during weekends, leisure occasions, family meals or social activity.",behavioral
+delivery_order_rate,Share of orders delivered to the user's location. Indicates delivery preference and remote ordering behavior.,behavioral
+pickup_order_rate,Share of orders picked up by the user instead of delivered. Indicates pickup preference.,behavioral
+repeat_order_rate,"Share of orders from repeated places or repeated choices. Indicates loyalty, habit and consistency.",behavioral
+beer_order_rate,Share of interactions with beer-tagged items or entities. Indicates beer-related product interest.,tag_preference
+pork_order_rate,Share of interactions with pork-tagged items or entities. Indicates pork-related product interest.,tag_preference
+beef_order_rate,"Share of interactions with beef-tagged items or entities. Indicates beef, grill or meat-related interest.",tag_preference
+spicy_order_rate,Share of interactions with spicy-tagged items or entities. Indicates interest in spicy taste characteristics.,tag_preference
+ukrainian_order_rate,Share of interactions with Ukrainian-tagged items or entities. Indicates local cuisine or Ukrainian category interest.,tag_preference
+kids_food_order_rate,Share of interactions with kids food tagged items or entities. Indicates family or children-oriented food behavior.,tag_preference
+salads_order_rate,"Share of interactions with salad-tagged items or entities. Indicates salad, lighter food or fresh option interest.",tag_preference
+seafood_order_rate,"Share of interactions with seafood tagged items such as fish, shrimp or seafood category entities.",tag_preference
+meat_order_rate,"Share of interactions with meat-heavy tagged items such as grill, barbecue, chicken or meat categories.",tag_preference
+healthy_food_order_rate,"Share of interactions with healthy, balanced, fitness-oriented or low-calorie tagged options.",tag_preference
+fast_food_order_rate,Share of interactions with fast food or quick-service tagged items and entities.,tag_preference
+dessert_order_rate,"Share of interactions with desserts, sweets, cakes, pastries or bakery tagged items.",tag_preference
+coffee_order_rate,"Share of interactions with coffee, beverages, cafe products or coffee-shop tagged items.",tag_preference
+alcohol_order_rate,"Share of interactions with alcohol tagged items such as beer, wine, cocktails or alcoholic beverages.",tag_preference
+fine_dining_order_rate,"Share of interactions with fine dining, premium restaurants, high-end dining or luxury dining entities.",experience
+premium_order_rate,"Share of high-price orders indicating premium products, expensive purchases or high-value behavior.",experience
+group_order_rate,"Share of orders suitable for groups, shared meals, large portions, events or social dining occasions.",experience
+app_sessions_last_30d,Number of app sessions in the last 30 days. Indicates recent engagement and activity.,engagement
+order_frequency_per_week,Average number of orders placed per week. Indicates frequency and active usage.,engagement
